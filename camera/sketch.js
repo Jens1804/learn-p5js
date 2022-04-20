@@ -66,6 +66,9 @@ function draw() {
       function blub2(a, b, c, d, e, f, g, h, i, j) {
         return "hihi";
       }
+      function blub3(a, b, c, d, e, f, g, h, i, j) {
+        return "hihi";
+      }
       textSize(w);
 
       textAlign(CENTER, CENTER);
