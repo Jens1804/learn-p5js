@@ -59,7 +59,7 @@ function draw() {
 
       const len = density.length;
       const charIndex = floor(map(avg, 0, 255, len, 0));
-      const bla = 1;
+
 
       textSize(w);
 
