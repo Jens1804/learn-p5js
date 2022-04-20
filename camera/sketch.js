@@ -63,13 +63,15 @@ function draw() {
       function blub(a, b, c, d, e, f, g, h, i, j) {
         return "hihi";
       }
-
+      function blub2(a, b, c, d, e, f, g, h, i, j) {
+        return "hihi";
+      }
       textSize(w);
 
       textAlign(CENTER, CENTER);
       //text("K", i * w, j * h);
       //text(density.charAt(charIndex), i * w, j * h);
-      ellipse(i * w, j * h, 5, 10);
+      ellipse(i * w, j * h, 5, 5);
     }
   }
 }
