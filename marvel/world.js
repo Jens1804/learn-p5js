@@ -1,10 +1,14 @@
-class World {
+module.exports = class World {
   constructor(title) {
     this.title = title;
   }
 
   getTitle() {
     return this.title;
+  }
+
+  setTitle(title) {
+    this.title = title;
   }
 
   move() {
@@ -27,4 +31,4 @@ class World {
     ironman.draw();
     captain.draw();
   }
-}
+};
