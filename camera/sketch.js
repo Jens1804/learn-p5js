@@ -63,6 +63,9 @@ function draw() {
       function blub5(a, b, c, d, e, f, g, h, i, j) {
         return "hihi";
       }
+      function blub6(a, b, c, d, e, f, g, h, i, j) {
+        return "hihi";
+      }
 
       textSize(w);
 
