@@ -13,13 +13,10 @@ class Person {
 
     this.active = false;
     this.isHero = isHero;
-    if (isHero) {
-      this.x = random(100, 400);
-      this.y = random(100, 400);
-    } else {
-      this.x = random(100, 400);
-      this.y = random(100, 400);
-    }
+
+    this.x = random(100, 400);
+    this.y = random(100, 400);
+
     this.center = { x: this.x + this.width / 2, y: this.y + this.height / 2 };
     this.observedPersons = [];
     this.distances = [];
