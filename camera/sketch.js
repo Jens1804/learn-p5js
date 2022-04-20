@@ -60,12 +60,6 @@ function draw() {
       const len = density.length;
       const charIndex = floor(map(avg, 0, 255, len, 0));
       const bla = 1;
-      function blub5(a, b, c, d, e, f, g, h, i, j) {
-        return "hihi";
-      }
-      function blub7(a, b, c, d, e, f, g, h, i, j) {
-        return "hihi";
-      }
 
       textSize(w);
 
