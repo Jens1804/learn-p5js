@@ -86,3 +86,11 @@ function mousePressed() {
   }
   switchHero();
 }
+
+function draw2() {
+  background(255, 255, 255, 255);
+  world.move();
+  world.draw();
+
+  line(700, 300, canvasWidth - 25, 100);
+}
