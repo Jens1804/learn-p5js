@@ -87,7 +87,7 @@ function mousePressed() {
   switchHero();
 }
 
-function draw2() {
+function draw3() {
   background(255, 255, 255, 255);
   world.move();
   world.draw();
