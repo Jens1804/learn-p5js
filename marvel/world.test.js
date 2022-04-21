@@ -9,6 +9,6 @@ describe("World Tests", () => {
 
   test("Can I rename the universe?", () => {
     newWorld.setTitle("Alice Wunderland");
-    expect(newWorld.getTitle()).toBe("Alice Wunderlands");
+    expect(newWorld.getTitle()).toBe("Alice Wunderland");
   });
 });
